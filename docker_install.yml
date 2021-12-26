@@ -1,4 +1,8 @@
 ---
+# Author: Amaury Borges Souza
+# Description: A small automation to provision AWS EC2 with Terraform and install via Ansible playbook
+# Usage: please  ensure have Terraform binary installed on your machine and perform terraform basic commands
+# Ansible_version: ansible 2.9.22
 - name: my playbook
   hosts: all
   become: true
